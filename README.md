@@ -1,5 +1,5 @@
 # 🎓 Samuel Adebanjo — Data Science Portfolio
-### *U.S. Education System: Equity, Finance & Academic Performance Analytics*
+### *AltSchool Africa Data Science Portfolio: Exploratory Data Analysis, Machine Learning, Statistical Modeling & Applied Visual Analytics*
 
 [![Python](https://img.shields.io/badge/Python-3.9%20%7C%203.10%20%7C%203.11-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
 [![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-F37626?style=for-the-badge&logo=jupyter&logoColor=white)](https://jupyter.org/)
@@ -10,11 +10,15 @@
 
 ---
 
-## 📌 Executive Summary
+## 📌 Portfolio Overview
 
-This repository presents an exploratory data analysis (EDA) and statistical investigation into the **United States Education System**, analyzing a dataset of **5,000 institutions** spanning primary, secondary, and higher education.
+Welcome to the **Data Science Portfolio** of **Samuel Oluolamide Adebanjo**. This repository houses applied data science projects, statistical modeling, and deep exploratory analyses developed as part of the AltSchool Africa Data Science program and personal research.
 
-By synthesizing socioeconomic indicators, per-pupil expenditures, governance controls, and standardized academic metrics, this research quantifies the critical drivers of student achievement, demographic equity, and institutional success across the nation.
+### Featured Projects:
+1. **🎓 U.S. Education System: Equity, Finance & Academic Performance Analytics**  
+   An in-depth empirical investigation into **5,000 U.S. educational institutions**, analyzing how socioeconomic factors, per-pupil expenditures, and STEM certifications correlate with academic achievement and student equity.
+2. **🌸 Fisher's Iris Dataset: Exploratory Data Analysis & Statistical Modeling**  
+   A foundational statistical modeling and feature correlation study utilizing multivariate distributions and dimensional profiling.
 
 ---
 
@@ -25,21 +29,23 @@ Samuel-Adebanjo-Data-Science-Portfolio/
 │
 ├── Portfolio/
 │   ├── Data/
-│   │   └── us_education_system_dataset.csv     # Primary dataset (5,000 institutions, 35 features)
+│   │   └── us_education_system_dataset.csv     # 5,000 U.S. educational institutions dataset (35 features)
 │   │
 │   └── Notebook/
-│       └── Data_visualization.ipynb            # Publication-ready EDA & visual analytics notebook
+│       ├── Data_visualization.ipynb            # Publication-ready U.S. Education EDA & visual analytics
+│       └── Exploratory_Data_Analysis_&_Statistical_Modeling_of_the_Iris_Dataset.ipynb  # Iris statistical analysis
 │
 ├── .gitignore                                  # Git exclusion configuration for data science
 ├── LICENSE                                     # MIT Open Source License
-├── README.md                                   # Repository documentation & portfolio showcase
+├── README.md                                   # Comprehensive portfolio showcase documentation
 └── requirements.txt                            # Python environment dependencies
 ```
 
 ---
 
-## 🔬 Key Research Questions & Hypotheses
+## 🔬 Featured Study: U.S. Education System Analytics
 
+### Key Research Questions
 1. **Socioeconomic Impact on Performance:**  
    *To what extent does socioeconomic disadvantage (proxied by Free/Reduced Price Lunch eligibility and Title I status) correlate with proficiency gaps in Mathematics and Reading?*
 2. **Resource Allocation & ROI:**  
@@ -65,9 +71,7 @@ Samuel-Adebanjo-Data-Science-Portfolio/
 
 ---
 
-## 📋 Data Dictionary
-
-The analysis is conducted on `us_education_system_dataset.csv`, consisting of **5,000 records** and **35 attributes**:
+## 📋 Data Dictionary (`us_education_system_dataset.csv`)
 
 | Category | Columns | Description |
 | :--- | :--- | :--- |
@@ -110,7 +114,7 @@ pip install -r requirements.txt
 ```bash
 jupyter notebook Portfolio/Notebook/Data_visualization.ipynb
 ```
-*Note: The notebook features dynamic relative path resolution and will execute out-of-the-box in JupyterLab, VS Code, and Google Colab.*
+*Note: The notebooks feature dynamic relative path resolution and execute seamlessly in JupyterLab, VS Code, and Google Colab.*
 
 ---
 
@@ -127,7 +131,7 @@ jupyter notebook Portfolio/Notebook/Data_visualization.ipynb
 ## 👨‍💻 About the Author
 
 **Samuel Oluolamide Adebanjo**  
-*Aerospace Engineer (First Class Honours) | Data Scientist & Machine Learning Researcher*
+*Aerospace Engineer (First Class Honours, 4.97 CGPA) | AltSchool Africa Data Science Fellow*
 
 - **GitHub:** [@Oluola4002](https://github.com/Oluola4002)
 - **Repository:** [Samuel-Adebanjo-Data-Science-Portfolio](https://github.com/Oluola4002/Samuel-Adebanjo-Data-Science-Portfolio)
