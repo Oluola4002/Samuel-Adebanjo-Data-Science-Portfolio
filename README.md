@@ -14,11 +14,9 @@
 
 Welcome to the **Data Science Portfolio** of **Samuel Oluolamide Adebanjo**. This repository houses applied data science projects, statistical modeling, and deep exploratory analyses developed as part of the AltSchool Africa Data Science program and personal research.
 
-### Featured Projects:
-1. **🎓 U.S. Education System: Equity, Finance & Academic Performance Analytics**  
-   An in-depth empirical investigation into **5,000 U.S. educational institutions**, analyzing how socioeconomic factors, per-pupil expenditures, and STEM certifications correlate with academic achievement and student equity.
-2. **🌸 Fisher's Iris Dataset: Exploratory Data Analysis & Statistical Modeling**  
-   A foundational statistical modeling and feature correlation study utilizing multivariate distributions and dimensional profiling.
+### Featured Project:
+**🎓 U.S. Education System: Equity, Finance & Academic Performance Analytics**  
+An in-depth empirical investigation into **5,000 U.S. educational institutions**, analyzing how socioeconomic factors, per-pupil expenditures, and STEM certifications correlate with academic achievement and student equity.
 
 ---
 
@@ -32,8 +30,7 @@ Samuel-Adebanjo-Data-Science-Portfolio/
 │   │   └── us_education_system_dataset.csv     # 5,000 U.S. educational institutions dataset (35 features)
 │   │
 │   └── Notebook/
-│       ├── Data_visualization.ipynb            # Publication-ready U.S. Education EDA & visual analytics
-│       └── Exploratory_Data_Analysis_&_Statistical_Modeling_of_the_Iris_Dataset.ipynb  # Iris statistical analysis
+│       └── Data_visualization.ipynb            # Publication-ready U.S. Education EDA & visual analytics
 │
 ├── .gitignore                                  # Git exclusion configuration for data science
 ├── LICENSE                                     # MIT Open Source License
